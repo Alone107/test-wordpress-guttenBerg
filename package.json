@@ -1,0 +1,25 @@
+{
+  "name": "myblock",
+  "version": "1.0.0",
+  "description": "my block",
+  "main": "index.js",
+  "scripts": {
+    "b": "wp-scripts build",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "packages-update": "wp-scripts packages-update",
+    "plugin-zip": "wp-scripts plugin-zip",
+    "s": "wp-scripts start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/eslint-plugin": "^24.5.0",
+    "@wordpress/scripts": "^31.8.0"
+  },
+  "dependencies": {
+    "@wordpress/block-editor": "^15.16.0",
+    "@wordpress/blocks": "^15.16.0"
+  }
+}
