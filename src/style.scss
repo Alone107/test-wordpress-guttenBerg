@@ -1,7 +1,13 @@
-$color: blue;
-
-
 .wp-block-alone-myblock {
-    font-size: 100px;
-    background: $color;
+  &.alone-align-center {
+    text-align: center;
+  }
+
+  &.alone-align-left {
+    text-align: left;
+  }
+
+  &.alone-align-right {
+    text-align: right;
+  }
 }
