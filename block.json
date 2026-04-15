@@ -1,23 +1,12 @@
 {
   "apiVersion": 2,
-  "name": "alone/myblock",
-  "title": "My Block",
-  "description": "Guttenberg Block",
+  "name": "alone/myblocks",
+  "title": "My Blocks",
+  "description": "Guttenberg Blocks",
   "category": "text",
-  "icon": "admin-customizer",
-  "text-domain": "myblock",
+  "icon": "universal-access-alt",
+  "text-domain": "myblocks",
   "editorScript": "file:./build/index.js",
   "style": "file:./build/style-index.css",
-  "editorStyle": "file:./build/index.css",
-  "attributes": {
-    "text": {
-      "type": "string",
-      "source": "html",
-      "selector": "h1"
-    },
-    "align": {
-      "type": "string",
-      "default": "left"
-    }
-  }
+  "editorStyle": "file:./build/index.css"
 }

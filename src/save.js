@@ -1,12 +1,9 @@
-import { useBlockProps, RichText } from "@wordpress/block-editor";
+import { useBlockProps, InnerBlocks } from "@wordpress/block-editor";
 
-export default function save({ attributes }) {
-  const { text, align } = attributes;
+export default function save() {
   return (
-    <RichText.Content
-      {...useBlockProps.save({ className: `alone-align-${align}` })}
-      tagName="h1"
-      value={text}
-    />
+    <div {...useBlockProps.save()}>
+      <InnerBlocks.Content></InnerBlocks.Content>
+    </div>
   );
 }
