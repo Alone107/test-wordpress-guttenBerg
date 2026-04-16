@@ -1,7 +1,37 @@
 /*!****************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/editor.scss ***!
   \****************************************************************************************************************************************************************************************************************************************/
-.wp-block-alone-myblock {
-  font-size: 50px;
-  background: red;
+.wp-block-alone-myblocks {
+  display: block;
+}
+.wp-block-alone-myblocks.columns-1 > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="alone/myblock"] {
+  width: calc(100% - 10px);
+}
+.wp-block-alone-myblocks.columns-2 > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="alone/myblock"] {
+  width: calc(50% - 10px);
+}
+.wp-block-alone-myblocks.columns-3 > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="alone/myblock"] {
+  width: calc(33.3333333333% - 10px);
+}
+.wp-block-alone-myblocks.columns-4 > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="alone/myblock"] {
+  width: calc(25% - 10px);
+}
+.wp-block-alone-myblocks > .block-editor-inner-blocks > .block-editor-block-list__layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.wp-block-alone-myblocks > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="alone/myblock"] .image.is-loading img {
+  opacity: 0.2;
+}
+.wp-block-alone-myblocks > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="alone/myblock"] .image.is-loading {
+  position: relative;
+}
+.wp-block-alone-myblocks > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="alone/myblock"] .components-spinner {
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
 }
