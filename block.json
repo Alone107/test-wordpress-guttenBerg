@@ -1,18 +1,12 @@
 {
   "apiVersion": 2,
-  "name": "alone/myblocks",
-  "title": "My Blocks",
-  "description": "Guttenberg Blocks",
+  "name": "alone/dynamicblock",
+  "title": "Latest Posts",
+  "description": "Guttenberg Dynamic Blocks",
   "category": "text",
   "icon": "universal-access-alt",
-  "text-domain": "myblocks",
+  "text-domain": "dynamicblock",
   "editorScript": "file:./build/index.js",
   "style": "file:./build/style-index.css",
-  "editorStyle": "file:./build/index.css",
-  "attributes": {
-    "columns": {
-      "type": "number",
-      "default": 1
-    }
-  }
+  "editorStyle": "file:./build/index.css"
 }

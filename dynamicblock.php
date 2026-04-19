@@ -9,7 +9,7 @@
  */
 
 
-function alone_myblock_init()
+function alone_dynamicblock_init()
 {
     register_block_type_from_metadata(__DIR__);
 }

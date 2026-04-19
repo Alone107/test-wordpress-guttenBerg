@@ -1,18 +1,2 @@
-.wp-block-alone-myblocks {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-  & img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  @for $i from 1 through 4 {
-    &.columns-#{$i} {
-      .wp-block-alone-myblock {
-        width: calc(100% / $i - 10px);
-      }
-    }
-  }
+.wp-block-alone-dynamicblock {
 }
