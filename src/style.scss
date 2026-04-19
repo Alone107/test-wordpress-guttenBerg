@@ -1,2 +1,22 @@
 .wp-block-alone-dynamicblock {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+
+  > div {
+    padding: 10px;
+    width: calc(50% - 40px);
+    background: #7debeb;
+    border-radius: 30px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+  }
+  a {
+    text-decoration: none;
+    font-size: 48px;
+  }
 }
