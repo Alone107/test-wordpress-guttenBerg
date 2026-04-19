@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Plugin Name: My Block
+ * Plugin Name: My Dynamic Posts
  * Plugin URI: http://test-react-wordpress/
- * Description: Guttenberg block
+ * Description: Guttenberg dynamic block
  * Author: Alone
  * Author URI: http://test-react-wordpress/
  */
@@ -15,4 +15,4 @@ function alone_myblock_init()
 }
 
 
-add_action('init', 'alone_myblock_init');
+add_action('init', 'alone_dynamicblock_init');
